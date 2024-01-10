@@ -4,7 +4,7 @@ metadata:
   name: task2-service
 spec:
   selector:
-    app: task2
+    app: task2-app
   ports:
     - protocol: TCP
       port: 80
