@@ -6,15 +6,15 @@ spec:
   replicas: 4
   selector:
     matchLabels:
-      app: webapplication
+      app: task2
   template:
     metadata:
       labels:
-        app: webapplication
+        app: task2
     spec:
       containers:
-      - name: webapplication
-        image: kosier/task2:latest
+      - name: task2-container
+        image: kosier/webapplication:latest
   strategy:
     type: RollingUpdate
     rollingUpdate:
