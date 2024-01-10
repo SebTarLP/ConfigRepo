@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: task2-container
-        image: kosier/webapplication:1.2
+        image: kosier/webapplication:2.1
   strategy:
     type: RollingUpdate
     rollingUpdate:
